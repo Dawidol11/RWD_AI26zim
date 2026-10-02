@@ -4,27 +4,44 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wydarzenia w mieście – karta wydarzenia</title>
+  <link href"style.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
   <header class="site-header">
     <h1>Wydarzenia w mieście</h1>
     <p>Trzy najbliższe wydarzenia. Ćwiczenie z responsywnego projektowania.</p>
   </header>
-
+ 
   <main>
     <section class="cards" aria-label="Lista wydarzeń">
-
-      <article class="card">
-        <img src="img/wydarzenie-1.svg" alt="Ilustracja: koncert w sali kameralnej" width="600" height="400">
-        <div class="card__body">
-          <p class="card__tag">Koncert</p>
+ 
+<div class="max-w-sm rounded overflow-hidden shadow-lg">
+  <img src="img/wydarzenie-1.svg" alt="Ilustracja: koncert w sali kameralnej">
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">Wieczór z muzyką filmową</div>
+    <p class="card__tag">Koncert</p>
           <h2 class="card__title">Wieczór z muzyką filmową</h2>
           <p class="card__meta"><time datetime="2026-10-17T19:00">17 października 2026, 19:00</time> · Sala Kameralna</p>
           <p>Orkiestra kameralna wykona fragmenty najsłynniejszych ścieżek dźwiękowych.</p>
           <a class="card__link" href="#">Szczegóły i bilety</a>
+    </p>
+  </div>
+  <div class="px-6 pt-4 pb-2">
+   
+  </div>
+</div>
+ 
+      <article class="card">
+       
         </div>
+ 
+       
+     
+       
       </article>
-
+ 
+ 
       <article class="card">
         <img src="img/wydarzenie-2.svg" alt="Ilustracja: wystawa fotografii w galerii" width="600" height="400">
         <div class="card__body">
@@ -35,7 +52,7 @@
           <a class="card__link" href="#">Szczegóły i bilety</a>
         </div>
       </article>
-
+ 
       <article class="card">
         <img src="img/wydarzenie-3.svg" alt="Ilustracja: warsztaty ceramiczne" width="600" height="400">
         <div class="card__body">
@@ -46,12 +63,16 @@
           <a class="card__link" href="#">Zapisz się</a>
         </div>
       </article>
-
+ 
+ 
+ 
+     
     </section>
   </main>
-
+ 
   <footer class="site-footer">
     <p>Projekt dydaktyczny. Wydarzenia są fikcyjne.</p>
   </footer>
 </body>
 </html>
+ 
